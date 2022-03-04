@@ -130,3 +130,6 @@ body {
   font-size: 0.7em;
   color: var(--light-gray);
 }
+.mt__footer {
+  margin-left: calc((var(--bs-gutter-x) * 0.5) * -1) !important;
+}
