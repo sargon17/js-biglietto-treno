@@ -121,9 +121,6 @@ body {
 }
 /* ---------- / COMPONENTS ---------- */
 
-.mt__line-after {
-  border-right: 2px dashed var(--light-red);
-}
 .mt__discounted {
   font-weight: 500;
   text-decoration: line-through;
@@ -132,4 +129,15 @@ body {
 }
 .mt__footer {
   margin-left: calc((var(--bs-gutter-x) * 0.5) * -1) !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .mt__line-after {
+    border-right: 2px dashed var(--light-red);
+  }
+}
+@media only screen and (max-width: 576px) {
+  * {
+    font-size: 12px;
+  }
 }
