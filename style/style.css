@@ -1,0 +1,76 @@
+/* -------------- STILE DECLARATION -------------- */
+:root {
+  --title-font: "Secular One", sans-serif;
+  --accent-font: "Amiri", serif;
+  --main-font: "Cambay", sans-serif;
+
+  --white: #fff;
+  --red: #e00000;
+  --light-red: #fd6363;
+  --gray: #2e2e2e;
+  --light-gray: #545454;
+  --text: #1c1c1c;
+  --blue: #2752d6;
+
+  --transparent-bg: rgba(255, 255, 255, 0.97);
+  --shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  --radius: 8px;
+}
+.mt__bg-white {
+  background-color: var(--white);
+}
+.mt__cl-white {
+  color: var(--white);
+}
+.mt__bg-white--transparent {
+  background-color: var(--transparent-bg);
+}
+.mt__bg-red {
+  background-color: var(--red);
+}
+.mt__cl-red {
+  color: var(--red);
+}
+.mt__bg-light-red {
+  background-color: var(--light-red);
+}
+.mt__cl-light-red {
+  color: var(--light-red);
+}
+.mt__bg-gray {
+  background-color: var(--gray);
+}
+.mt__cl-gray {
+  color: var(--gray);
+}
+.mt__bg-light-gray {
+  background-color: var(--light-gray);
+}
+.mt__cl-light-gray {
+  color: var(--light-gray);
+}
+.mt__bg-text {
+  background-color: var(--text);
+}
+.mt__cl-text {
+  color: var(--text);
+}
+.mt__bg-blue {
+  background-color: var(--blue);
+}
+.mt__cl-blue {
+  color: var(--blue);
+}
+.mt__bx-shadow {
+  box-shadow: var(--shadow);
+}
+.mt__rounded {
+  border-radius: var(--radius);
+}
+/* -------------- / STILE DECLARATION -------------- */
+
+body {
+  height: 100vh;
+  background: var(--light-gray) url(../img/main-theme-bg.jpg) no-repeat center;
+  background-size: 120%;
+}
