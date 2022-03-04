@@ -5,7 +5,7 @@
   --main-font: "Cambay", sans-serif;
 
   --white: #fff;
-  --red: #e00000;
+  --red: #fd0100;
   --light-red: #fd6363;
   --gray: #2e2e2e;
   --light-gray: #545454;
@@ -99,4 +99,7 @@ body {
   height: 100vh;
   background: var(--light-gray) url(../img/main-theme-bg.jpg) no-repeat center;
   background-size: cover;
+}
+.mt__line-after {
+  border-right: 2px dashed var(--light-red);
 }
