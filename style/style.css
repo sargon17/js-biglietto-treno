@@ -119,6 +119,9 @@ body {
   background: var(--click-red);
   transform: scale(0.99);
 }
+#ticket {
+  transition: all 0.3s ease-in-out;
+}
 /* ---------- / COMPONENTS ---------- */
 
 .mt__discounted {
